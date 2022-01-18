@@ -11,7 +11,7 @@ void main(List<String> args) {
   var soyIsim = "Kutlar";
   var yas = 22;
   print("Benim adım $isim $soyIsim, yasım"
-      " $yas ve tum ismimdeki karakter sayisi ${isim.length + soyIsim.length}'tur ");
+      " $yas ve tum ismimdeki karakter sayisi ${(isim + soyIsim).length }'tur ");
 
   var birinciKenar = 8;
   var ikinciKenar = 8;
