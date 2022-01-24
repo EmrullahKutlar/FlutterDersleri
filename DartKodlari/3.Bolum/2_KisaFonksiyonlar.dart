@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
- /* print("Toplanacak sayilari giriniz");
+  print("Toplanacak sayilari giriniz");
   int sayi1 = int.parse(stdin.readLineSync()!),
       sayi2 = int.parse(stdin.readLineSync()!);
   print("Girilen Sayıların Toplamı= ${sayiTopla(sayi1, sayi2)}");
@@ -14,7 +14,7 @@ void main(List<String> args) {
   print("Çarpılacak sayilari giriniz");
   int sayi5 = int.parse(stdin.readLineSync()!),
       sayi6 = int.parse(stdin.readLineSync()!);
-  print("Girilen Sayıların Farkı= ${sayiCarp(sayi5, sayi6)}");*/
+  print("Girilen Sayıların Farkı= ${sayiCarp(sayi5, sayi6)}");
 
   print("Karşılaştırılacak sayilari giriniz");
   int sayi7 = int.parse(stdin.readLineSync()!),
