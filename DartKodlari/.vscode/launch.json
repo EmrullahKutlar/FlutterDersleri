@@ -8,7 +8,10 @@
       "name": "Dart & Flutter",
       "request": "launch",
       "type": "dart",
-      "program": "" //baslangıcta nereden baslamasını istiyorsan orayı yazıyorsun
+      "program": "${file}",
+      /*baslangıcta nereden baslamasını istiyorsan orayı yazıyorsun 
+      ${file} yazınca o an sekmede açık olan dosyayı çalıştırır
+      */ "console": "terminal"
     }
   ]
 }
